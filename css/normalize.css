@@ -353,3 +353,51 @@ td,
 th {
   padding: 0;
 }
+
+/* Crowdin Switcher Styling
+   ========================================================================== */
+
+#crowdin-language-picker .cr-picker-button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 25px;
+  position: static;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+#crowdin-language-picker:hover .cr-picker-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#crowdin-language-picker .cr-picker-button::after {
+  display: inline-block;
+  margin-left: 00.255em;
+  vertical-align: 00.255em;
+}
+
+#crowdin-language-picker .cr-picker-submenu>a.cr-selected {
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+}
+
+#crowdin-language-picker .cr-picker-submenu>a {
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+}
+
+#crowdin-language-picker .cr-picker-submenu {
+  background-color: rgb(255, 255, 255);
+}
+
+#crowdin-branding {
+  display: none;
+}
+
+#crowdin-language-picker.cr-shown .cr-picker-button,
+#crowdin-language-picker .cr-picker-button:hover,
+#crowdin-language-picker .cr-picker-button:active {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
